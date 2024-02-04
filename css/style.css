@@ -104,6 +104,16 @@ nav .nav_btn_2 i{
     position: absolute;
     right: 0;
 }
+#banner_part .container .row .col-lg-6 .banner_img_2{
+    position: absolute;
+    top: 169.97px;
+    right: 363.4px;
+}
+#banner_part .container .row .col-lg-6 .banner_img_3{
+    position: absolute;
+    top: 482.22px;
+    right: 184.4px;
+}
 
 #banner_part .left{
     display: flex;
