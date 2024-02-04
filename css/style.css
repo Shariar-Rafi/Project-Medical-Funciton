@@ -1,0 +1,218 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+
+h1, h2, h3, h4, h5, h5, h6, p{
+    padding: 0;
+    margin: 0;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.container{
+    max-width: 1322px;
+
+}
+
+/* ==================================================== */
+
+nav {
+    padding: 0;
+    position: absolute;
+    width: 100%;
+    z-index: 9;
+    color: transparent;
+}
+
+
+.navbar .navbar-nav {
+    column-gap: 21px;
+}
+
+nav .navbar-brand {
+    /* padding: 0; */
+    margin-left: 136px;
+    margin-right: 71px;
+}
+
+nav .navbar-nav .nav-item .nav-link{
+    padding: 0;
+    margin: 0;
+}
+
+nav .navbar-nav .nav-item .nav-link{
+    color: #737373;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px; 
+    letter-spacing: 0.2px;
+}
+
+nav .nav_btn_1{
+    color:  #23A6F0;
+    text-align: right;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 0.2px;
+    margin-left: 240px;
+}
+nav .nav_btn_2{
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 0.2px;
+    border-radius: 5px;
+    background: #23A6F0;
+    padding: 15px 25px;
+    margin: 20px 170px 20px 45px;
+
+}
+nav .nav_btn_2 i{
+    margin-left: 15px;
+}
+/* ===================================================== */
+#banner_part{
+    /* border: 1px solid red; */
+}
+
+#banner_part .container .row .col-lg-6{
+    position: relative;
+}
+
+#banner_part .container .row .col-lg-6 .banner_img_1{
+    padding: 47px 0;
+    position: absolute;
+    right: 0;
+}
+
+#banner_part .left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    margin-top: 152px;
+    margin-bottom: 148px;
+
+}
+
+#banner_part .container .row .col-lg-6 .text h4{
+    color:  #23A6F0;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+
+}
+
+#banner_part .container .row .col-lg-6 .text h2{
+    color: #252B42;
+    font-family: Montserrat;
+    font-size: 58px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 80px; 
+    letter-spacing: 0.2px;
+    max-width: 542px;
+    margin: 30px 0;
+}
+
+#banner_part .container .row .col-lg-6 .text p{
+    color: #737373;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 150% */
+    letter-spacing: 0.2px;
+    margin-bottom: 30px;
+}
+
+#banner_part .left .buttons .banner_button_1{
+    color: #FFF;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 0.2px;
+    border-radius: 5px;
+    background: #23A6F0;
+    padding: 15px 40px;
+}
+
+#banner_part .left .buttons .banner_button_2{
+    color: #23A6F0;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 0.2px;
+    border-radius: 5px;
+    border: 1px solid #23A6F0;
+    padding: 15px 40px;
+    margin-left: 10px;
+}
+
+/* ============================================================ */
+#activity_part .activity_text h3{
+    color:#23A6F0;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+}
+
+#activity_part .activity_text h2{
+    color: #252B42;
+    font-family: Montserrat;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 50px;
+    letter-spacing: 0.2px;
+}
+
+#activity_part .activity_text p{
+    color: var(--second-text-color, #737373);
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; 
+    letter-spacing: 0.2px;
+    max-width: 463px;
+}
+
+#activity_part .activity_text .col-lg-4{
+    padding: 35px 40px;
+}
+
+
+
