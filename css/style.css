@@ -179,6 +179,9 @@ nav .nav_btn_2 i{
 }
 
 /* ============================================================ */
+#activity_part{
+    padding: 160px 0;
+}
 #activity_part .activity_text h3{
     color:#23A6F0;
     font-family: Montserrat;
@@ -197,6 +200,7 @@ nav .nav_btn_2 i{
     font-weight: 700;
     line-height: 50px;
     letter-spacing: 0.2px;
+    margin: 10px 0;
 }
 
 #activity_part .activity_text p{
@@ -210,8 +214,47 @@ nav .nav_btn_2 i{
     max-width: 463px;
 }
 
-#activity_part .activity_text .col-lg-4{
+
+#activity_part .row{
+    column-gap: 30px;
+    margin-top: 80px;
+}
+
+#activity_part .row .col-lg-4{
     padding: 35px 40px;
+    width: 328px;
+    background:#FFF;
+    box-shadow: 0px 13px 19px 0px rgba(0, 0, 0, 0.07);
+    
+}
+
+#activity_part .row .col-lg-4 h3{
+    color: #252B42;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px; /* 150% */
+    letter-spacing: 0.1px;
+    margin-top: 20px;
+
+}
+#activity_part .row .col-lg-4 .line{
+    background: var(--danger-color, #E74040);
+    width: 50px;
+    height: 2px;
+    margin: 20px 0;
+}
+
+#activity_part .row .col-lg-4 p{
+    color: #737373;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; 
+    letter-spacing: 0.2px;
+    max-width: 189px;
 }
 
 
